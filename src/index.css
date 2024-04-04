@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,*::after,::before{
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid red; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  max-width: 425px;
+  height: 100vh;
+  background-color: white;
+}
+
+img{
+  display: block;
+}
+
+input,
+button{
+  width: 100%;
+  padding-block: 0.75rem;
+  border-radius: 12px;
+}
+
+button{
+  color: white;
+}
+
+input{
+  background-color: white;
+  border:1px solid #E0E0E0;
+}
